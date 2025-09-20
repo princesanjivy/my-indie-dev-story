@@ -372,7 +372,7 @@ class _GameScreenState extends State<GameScreen>
                         ),
                         const SizedBox(height: 32),
                         SuperBulletList(
-                          isOrdered: true,
+                          isOrdered: false,
                           crossAxisAlignment: CrossAxisAlignment.center,
                           gap: 8,
                           textStyle: TextStyle(fontSize: 32),
@@ -397,16 +397,16 @@ class _GameScreenState extends State<GameScreen>
   Map<String, List<Widget>> slidesContentText = {
     "idea": [
       ItemText("Backend engineer by profession, Indie dev by passion"),
-      ItemText("How I started app development?"),
+      ItemText("How I started app development"),
       ItemText("My first app on the PlayStore"),
     ],
     "flutter": [
       ItemText("The tech stack I used before Flutter"),
-      ItemText("How I get to know Flutter"),
+      ItemText("How I got to know Flutter"),
       ItemText("What I like about Flutter"),
     ],
     "me": [
-      ItemText("Designs"),
+      ItemText("Designing the app"),
       ItemText("Start with small prototypes"),
       ItemText("Launching a beta version"),
     ],
@@ -416,7 +416,7 @@ class _GameScreenState extends State<GameScreen>
     ],
     "cart": [
       ItemText("PlayStore, App Store and alternatives"),
-      ItemText("Setting up pipelines"),
+      ItemText("Setting up pipelines to automate workflow"),
       ItemText("Choosing the right backend infra"),
       ItemText("Monetization & Promotions"),
     ],

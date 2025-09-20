@@ -1,6 +1,6 @@
 # indie_dev_story
 
-My Indie dev story as a platformer
+My Indie dev story as a platformer game!
 
 ## Getting Started
 
